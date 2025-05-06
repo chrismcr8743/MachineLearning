@@ -1,5 +1,5 @@
-## Overview
-This repository implements a full end-to-end pipeline for predicting residual bullet velocity after penetration through different laminates, using both neural networks (with automated hyperparameter tuning) and Random Forests.  It includes data preprocessing, Hyperband‐driven tuning, model fine-tuning, per-laminate specialization, evaluation scripts, and a suite of customizable plotting utilities.
+## Overview  
+This repository implements an end-to-end pipeline for **real-time prediction of a projectile’s entire velocity profile**—both before and after penetration—through steel/polyurea laminates.  A Keras-based neural network (with automated Hyperband tuning) and a Random Forest baseline both learn from finite-element simulation data **provided by the author of “Real-time prediction of projectile penetration to laminates…”** (Pushkar Wadagbalkar and G.R. Liu, *Defence Technology* 2021).  The goal is to outperform the original models in that paper.
 
 ## Features
 - **Data preprocessing**: one-hot encoding of categorical features and MinMax scaling  
