@@ -1,0 +1,8 @@
+{
+  "lstm__batch_size": 16,
+  "lstm__model__dense_units": 16,
+  "lstm__model__dropout": 0.0,
+  "lstm__model__lr": 0.0007790698667460374,
+  "lstm__model__lstm_units": 32,
+  "lstm__optimizer": "nadam"
+}
